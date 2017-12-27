@@ -4,12 +4,11 @@ var playlist = {
 };
 
 function updatePlaylist(object, artistName, songTitle) {
-  Object.assign({}, playlist, {
+  return Object.assign({}, playlist, {
     artistName: ['Phil Ochs'],
     songTitle: ['Here\'s to the State of Mississippi']
   });
-  
-  return playlist;
+
 }
 
 function removeFromPlaylist() {
