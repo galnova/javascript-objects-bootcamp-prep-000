@@ -1,5 +1,5 @@
 var playlist = {
-  queen: "Killer Queen"
+  Kanye: "Gold Digger"
 };
 
 function updatePlaylist(object, key, value) {
