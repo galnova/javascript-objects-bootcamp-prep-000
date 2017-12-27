@@ -8,8 +8,12 @@ function updatePlaylist(object, artistName, songTitle) {
     artistName: ['Phil Ochs'],
     songTitle: ['Black Parade']
   });
+  
+  return playlist;
 }
 
 function removeFromPlaylist() {
+  delete playlist.artistName;
   
+  return playlist;
 }
