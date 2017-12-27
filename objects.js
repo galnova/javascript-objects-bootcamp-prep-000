@@ -4,4 +4,10 @@ var playlist = {
 };
 
 function updatePlaylist(object, artistName, songTitle) {
+  Object.assign({}, playlist, {
+    artistName: ['MyChemicalRomance']})
+}
+
+function removeFromPlaylist() {
+  
 }
