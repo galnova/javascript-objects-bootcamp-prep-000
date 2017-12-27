@@ -5,7 +5,9 @@ var playlist = {
 
 function updatePlaylist(object, artistName, songTitle) {
   Object.assign({}, playlist, {
-    artistName: ['MyChemicalRomance']})
+    artistName: ['MyChemicalRomance'],
+    songTitle: ['Black Parade']
+  });
 }
 
 function removeFromPlaylist() {
