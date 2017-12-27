@@ -1,6 +1,6 @@
 var playlist = {
-  artistName: "Queen",
-  songTitle: "Killer Queen"
+  artistName: "Phil Ochs",
+  songTitle: "Here's to the State of Mississippi"
 };
 
 function updatePlaylist(object, artistName, songTitle) {
